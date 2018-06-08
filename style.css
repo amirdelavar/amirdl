@@ -1,0 +1,163 @@
+body, input
+{
+ 
+    direction:rtl;
+    font-family: tahoma, Helvetica, sans-serif;
+    color: #44352C;
+}
+body
+{
+     background-color: #605A66;
+}
+a
+{
+    color: #EEEEEE;
+    text-decoration:none;
+    border-bottom: 1px orange dashed;
+}
+
+a:hover 
+{
+    color: #FFFFFF;
+}
+
+#container
+{
+    -moz-border-radius: 8px;
+    margin: auto;
+    padding: 5px;
+    width: 700px;
+      background-color: #6A6570;
+}
+
+#title
+{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+ul#navigation, ul#form
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#navigation
+{
+    float: right;
+}
+
+ul#form
+{
+    clear: both;
+}
+
+ul#navigation li
+{
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+   
+}
+
+ul#navigation li a
+{
+
+    font-size: 11px;
+    color: #000000;
+    background-color: #B9C8E0;
+    padding: 5px 10px 5px 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-bottom: 0 #ffffff solid;
+}
+
+ul#navigation li  a:hover
+{
+    color: #CC0000;
+}
+
+ul#form li
+{
+    width: 680px;
+}
+
+#footer
+{
+    color: #9B9C83;
+    font-size: small;
+    text-align: center;
+}
+
+#address_bar
+{
+    font-size: 12px;
+    
+    border-bottom: 3px #6A6570 solid;
+    background-color: #6A6570;
+    text-align: center;
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+#go
+{
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #000;
+    border: 0 #ffffff solid;
+    padding: 2px 5px;
+}
+#forgetful
+{
+    font-size: 11px;
+}
+
+#address_box
+{
+    font-size: 11px;
+    direction:ltr;
+    	text-align:left;
+    width: 500px;
+}
+
+.option
+{
+    height: 20px;
+    border-bottom: 2px solid #605A66;
+    margin-right: 10px; 
+    padding-top: 0px;
+    padding-bottom: 5px; 
+    background-color: #D2D0D4;
+}
+
+.option label
+{
+    font-size: 11px;
+}
+
+form
+{
+    margin: 0;
+}
+
+#error, #auth
+{
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #86818B;
+    margin: 10px;
+    width: 680px;
+    clear: both;
+}
+
+#auth
+{
+    background-color: #605A66;
+}
+
+#error p, #auth p, #auth form
+{
+    margin: 5px;
+}
